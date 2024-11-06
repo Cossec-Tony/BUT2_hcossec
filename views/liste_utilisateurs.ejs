@@ -1,0 +1,14 @@
+<%- include('header'); -%>
+
+<main role="main">
+    <h1>bienvenue sur ma page web</h1>
+    <p>Cette page est servie par Node.js.</p>
+    
+
+    <% for (element of users){ %>
+        <%=  element.login %>
+    <% } %>
+    
+</main>
+
+<%- include('footer'); -%>
